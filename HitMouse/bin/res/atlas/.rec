@@ -1,0 +1,21 @@
+D .
+D prefab
+R 0CF05195 Image.prefab
+R 8222F0E5 MinusFloatScore.prefab
+D res
+R 32CEC916 bg.png
+P 5C5DE2E2 button.png
+P 21EB3616 dialog.png
+P 46187569 hammer.png
+P BF0E6799 line.png
+P 47E1E867 mouse_hited_1.png
+P F1DC4BDD mouse_hited_2.png
+P CD8B8344 mouse_normal_1.png
+P 89B0BB76 mouse_normal_2.png
+P 91658B10 score_100_1.png
+P 5605ED8D score_100_2.png
+D sound
+R 1DC3ABD8 destroy.wav
+R 68B16DAC gameover.ogg
+R 317A1602 hit.ogg
+R FF0B6E8D hit.wav

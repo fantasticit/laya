@@ -1,0 +1,1 @@
+{"type":"Image","props":{"y":0,"x":0,"presetID":1,"name":"MinusFloatScore","isPresetRoot":true},"compId":34,"child":[{"type":"Script","props":{"presetID":2,"runtime":"game/FloatScore.ts"},"compId":35}],"loadList":[],"loadList3D":[]}
