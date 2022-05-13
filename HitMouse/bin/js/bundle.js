@@ -186,7 +186,7 @@
           this.dialogGameOverNode.visible = true;
           this.dialogGameOverScoreNode.text = "" + this.currentScore;
           Laya.timer.clear(this, this.onCountDown);
-          Laya.SoundManager.playSound(`sound/gameover.ogg`, 1);
+          Laya.SoundManager.playSound(`sound/gameover.mp3`, 1);
       }
       addMouse(mouse) {
           this.mouses[mouse.index] = mouse;
@@ -214,7 +214,7 @@
           if (!this.isPlaying)
               return;
           const pos = GameConfig.holes[mouse.index];
-          Laya.SoundManager.playSound(`sound/hit.ogg`, 1);
+          Laya.SoundManager.playSound(`sound/hit.mp3`, 1);
           const hammer = this.hammerNode.getComponent(Hammer);
           this.hammerNode.pos(pos.x + 60, pos.y - 60);
           hammer.show();

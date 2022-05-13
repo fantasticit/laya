@@ -15,7 +15,5 @@ P 89B0BB76 mouse_normal_2.png
 P 91658B10 score_100_1.png
 P 5605ED8D score_100_2.png
 D sound
-R 1DC3ABD8 destroy.wav
-R 68B16DAC gameover.ogg
-R 317A1602 hit.ogg
-R FF0B6E8D hit.wav
+R 589883DD gameover.mp3
+R BCD63B37 hit.mp3

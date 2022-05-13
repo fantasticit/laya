@@ -102,7 +102,7 @@ export default class GameManager extends Laya.Script {
     this.dialogGameOverNode.visible = true;
     this.dialogGameOverScoreNode.text = "" + this.currentScore;
     Laya.timer.clear(this, this.onCountDown);
-    Laya.SoundManager.playSound(`sound/gameover.ogg`, 1);
+    Laya.SoundManager.playSound(`sound/gameover.mp3`, 1);
   }
 
   /**
@@ -150,7 +150,7 @@ export default class GameManager extends Laya.Script {
 
     const pos = GameConfig.holes[mouse.index];
 
-    Laya.SoundManager.playSound(`sound/hit.ogg`, 1);
+    Laya.SoundManager.playSound(`sound/hit.mp3`, 1);
 
     // 显示锤子
     const hammer = this.hammerNode.getComponent(Hammer);
